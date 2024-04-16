@@ -123,6 +123,45 @@ h2 {
     justify-content: center;
 }
 
+/* About Us--------------------------------------------------------*/
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-image: url(imagenes/office.jpg);
+    background-size: cover;
+    margin-top: 40px;
+    width: 100vw;
+    height:1125px;
+    z-index: -1;
+}
+
+.about-us-blanco {
+    background-color: rgba(245, 245, 245, 0.766);
+    z-index: 8;
+    width: 50vw;
+}
+
+.contenido-about-us-blanco {
+    background-color: #0088c7;
+    width: 411px;
+    height: auto;
+    
+}
+
+h1 {
+    color: black;
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+
+
 /* Estilos del formulario------------------------------------------------*/
 
 
@@ -182,6 +221,7 @@ h3 {
     width:375px;
     font-family: raleway,sans-serif;
     font-weight: bold;
+    border-width: 0px;
     font-size: 1rem;
     color: rgb(68, 68, 68);
 }
@@ -189,6 +229,7 @@ h3 {
 #iemail {
     height: 70px;
     width: 375px;
+    border-width: 0px;
     font-family: raleway,sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -200,6 +241,7 @@ h3 {
     margin-top: 20px;
     height: 150px;
     width: 850px;
+    border-width: 0px;
     font-family: raleway,sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -208,15 +250,25 @@ h3 {
 }
 
 input[type=submit] {
-    font-size: 2rem;
+    color: whitesmoke;
+    font-size: 1rem;
     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    background-color: black;
     margin-top: 20px;
     border-radius: 40px;
+    border-width: 0px;
     height: 40px;
     width: 425px;
 }
 
 input[type=text] {
+    border-radius: 20px;
+    padding-left: 25px;
+}
+
+input[type=textarea] {
     border-radius: 20px;
     padding-left: 25px;
 }
