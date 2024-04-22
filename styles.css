@@ -51,7 +51,7 @@ body {
 
 
 
-/*Estilos del slider ------------------------------------------*/
+/*Estilos del slider trabajos ------------------------------------------*/
 
 @keyframes slide {
     from {
@@ -189,6 +189,43 @@ h1 {
     font-size: 0.8rem ;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+/* The studio -----------------------------------------------------------*/
+
+.studio h2{
+    position: absolute;
+    top: 2900px;
+    left: 30vw;
+    font-size: 4rem;
+    justify-content: center;
+    
+}
+
+.studio-slide {
+    height: 800px;
+    width: fit-content;
+
+    animation: slider-studio 16s infinite ease-in-out;
+}
+
+.studio-slide img {
+    height: 100%;
+}
+
+@keyframes slider-studio {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -20%;}
+    45% {margin-left: -20%;}
+
+    50% {margin-left: -67%;}
+    70% {margin-left: -67%;}
+
+    75% {margin-left: -115%;}
+    95% {margin-left: -115%;}
+    
 }
 
 /* Estilos del formulario------------------------------------------------*/
